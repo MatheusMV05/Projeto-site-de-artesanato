@@ -1,0 +1,33 @@
+.produto img {
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.produto p {
+    text-align: center;
+}
+
+.produto h1 {
+    text-align: center;
+}
+
+.produto button {
+    background-color: green;
+    border: 2px green solid;
+    border-radius: 5px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    width: 200px;
+    margin-top: 10px;
+
+}

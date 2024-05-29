@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "  Leão",
+        "price": 360,
+        "image": "img_itens/Esculturas/Leao.png",
+        "alt": "Escultura de Leão",
+        "link": "produtos/subsite1(leao).html"
+    },
+    {
+        "id": 2,
+        "name": " La Ursa",
+        "price": 250,
+        "image": "img_itens/Esculturas/La_ursa.jpg",
+        "alt": "Escultura de barro da La Ursa",
+        "link": "produtos/subsite2(la_ursa).html"
+    },
+    {
+        "id": 3,
+        "name": " Homem da meia noite",
+        "price": 290,
+        "image": "img_itens/Esculturas/homem.jpg",
+        "alt": "Escultura do Homem da meia noite",
+        "link": "produtos/subsite3(homem_meia_noite).html"
+    },
+    {
+        "id": 4,
+        "name": " Tapete",
+        "price": 40,
+        "image": "img_itens/Tecidos/tapete.jpg",
+        "alt": "Tapete",
+        "link": "produtos/subsite4(tapete).html"
+    },
+    {
+        "id": 5,
+        "name": " Rede",
+        "price": 120,
+        "image": "img_itens/Tecidos/rede.jpg",
+        "alt": "Rede",
+        "link": "produtos/subsite5(rede).html"
+    },
+    {
+        "id": 6,
+        "name": " Toalha de mesa",
+        "price": 50,
+        "image": "img_itens/Tecidos/toalha de mesa.jpg",
+        "alt": "Toalha de mesa",
+        "link": "produtos/subsite6(toalha_de_mesa).html"
+    },
+    {
+        "id": 7,
+        "name": " Vaso com Moldura",
+        "price": 300,
+        "image": "img_itens/Vasos/Vaso com quadro.jpg",
+        "alt": "Vaso com Moldura",
+        "link": "produtos/subsite7(vaso_com_quadro).html"
+    },
+    {
+        "id": 8,
+        "name": " Vaso de cascalho",
+        "price": 240,
+        "image": "img_itens/Vasos/vaso de cascalho.jpg",
+        "alt": "Vaso de cascalho",
+        "link": "produtos/subsite8(vaso_cascalho).html"
+    },
+    {
+        "id": 9,
+        "name": " Vaso de ceramica",
+        "price": 205,
+        "image": "img_itens/Vasos/vaso de ceramica.jpg",
+        "alt": "Vaso de ceramica",
+        "link": "produtos/subsite9(vaso_ceramica).html"
+    },
+    {
+        "id": 10,
+        "name": " Tremzinho",
+        "price": 100,
+        "image": "img_itens/Brinquedos/tremzinho.jpg",
+        "alt": "Tremzinho de madeira",
+        "link": "produtos/subsite10(tremzinho).html"
+    },
+    {
+        "id": 11,
+        "name": " Lampião de pelucia",
+        "price": 80,
+        "image": "img_itens/Brinquedos/boneco de lampião.jpg",
+        "alt": "Lampião de pelucia",
+        "link": "produtos/subsite11(lampião_pelucia).html"
+    },
+    {
+        "id": 12,
+        "name": " Cavalinhos",
+        "price": 60,
+        "image": "img_itens/Brinquedos/cavalinhos de madeira.jpg",
+        "alt": "Cavalinhos de brinquedo",
+        "link": "produtos/subsite12(cavalinho).html"
+    },
+    {
+        "id": 13,
+        "name": " Mandacaru",
+        "price": 170,
+        "image": "img_itens/Quadros/mandacaru.jpg",
+        "alt": "Quadro Mandacaru",
+        "link": "produtos/subsite13(mandacaru).html"
+    },
+    {
+        "id": 14,
+        "name": " Casal de cangaceiros",
+        "price": 220,
+        "image": "img_itens/Quadros/casal de cangaceiros.jpg",
+        "alt": "Quadro Casal de cangaceiros",
+        "link": "produtos/subsite14(casal_cangaceiros).html"
+    },
+    {
+        "id": 15,
+        "name": " Tragedia e Comedia",
+        "price": 190,
+        "image": "img_itens/Quadros/Tragedia e felicidade.jpg",
+        "alt": "Quadro Tragedia e Comedia",
+        "link": "produtos/subsite15(tragedia_felicidade).html"
+    }
+]
