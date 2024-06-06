@@ -677,3 +677,74 @@ footer {
 .texto p {
     color: #fff;
 }
+@media only screen and (max-width: 480px) {
+    /* Ajuste o layout para dispositivos menores */
+    .container {
+      flex-direction: column;
+      align-items: center; /* Add this line */
+    }
+    
+    /* Ajuste o tamanho da fonte para dispositivos menores */
+    body {
+      font-size: 14px;
+    }
+    
+    /* Ajuste o espaçamento entre elementos */
+    .atalho1 {
+      padding: 0 5px;
+      text-align: center; /* Add this line */
+    }
+    
+    /* Ajuste o tamanho da imagem */
+    .atalho1 img {
+      width: 150px;
+      margin: 0 auto; /* Add this line */
+    }
+    
+    /* Ajuste o tamanho do cabeçalho */
+    h1 {
+      font-size: 24px;
+      text-align: center; /* Add this line */
+    }
+    
+    /* Ajuste o tamanho do parágrafo */
+    p {
+      font-size: 16px;
+      text-align: center; /* Add this line */
+    }
+    
+    /* Ajuste o tamanho do contato */
+    .contato {
+      font-size: 18px;
+      text-align: center; /* Add this line */
+    }
+    
+    /* Ajuste o espaçamento entre os contatos */
+    .contato-item {
+      margin-bottom: 10px;
+    }
+    
+    /* Ajuste o tamanho do formulário */
+    .formulario {
+      width: 100%;
+      text-align: center; /* Add this line */
+    }
+    
+    /* Ajuste o tamanho do campo de texto */
+    .formulario textarea {
+      height: 100px;
+    }
+    
+    /* Ajuste o espaçamento entre os botões */
+    .botoes {
+      margin-top: 10px;
+      text-align: center; /* Add this line */
+    }
+    
+    /* Ajuste o tamanho dos botões */
+    .botoes button {
+      width: 100%;
+      font-size: 16px;
+      padding: 10px;
+    }
+  }
