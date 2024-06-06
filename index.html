@@ -21,32 +21,27 @@
                     <li class="login"><a href="#" data-target="#login-box">Clique aqui para fazer login</a></li>
                     <li class="redes"><a href="https://www.whatsapp.com/?lang=pt_BR">Whatsapp</a></li>
                     <li class="redes"><a href="https://www.instagram.com">Instagram</a></li>
-                    <li class="redes"><select id="lang-select">
-                        <option value="pt-br">Portuguese (Brazil)</option>
-                        <option value="en">English</option>
-                        <!-- Add more languages here -->
-                      </select></li>
+                    <li class="redes">
+                        <select id="lang-select">
+                            <option value="pt-br">Portuguese (Brazil)</option>
+                            <option value="en">English</option>
+                        </select>
+                    </li>
                 </ul>
             </nav>
             <div class="login-box" id="login-box">
-                <h2>Fazer Login</h2>
-                <form>
-                    <div class="user-box">
-                        <input type="text" name="" required="">
-                        <label>Nome de usuário</label>
-                    </div>
-                    <div class="user-box">
-                        <input type="password" name="" required="">
-                        <label>Senha</label>
-                    </div>
-                    <a href="#">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        Fazer Login
-                    </a>
-                </form>
+                <h2 id="loginHeader">Log In</h2>
+                <form id="myForm">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                    <span id="emailError"></span>
+                  <br>
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" name="password">
+                    <span id="passwordError"></span>
+                  
+                    <button type="submit">Logar</button>
+                  </form>
             </div>
         </div>
         <div class="atalhos">
@@ -80,55 +75,41 @@
             </div>
         </div>
     </header>
-    <div class="listProduct">
-
-    </div>
-    </div>
+    <div class="listProduct"></div>
     <div class="cartTab">
         <h1>Carrinho</h1>
-        <div class="listCart">
-
-
-        </div>
+        <div class="listCart"></div>
         <div class="btn">
             <button class="close">FECHAR</button>
             <button class="checkOut">COMPRAR</button>
         </div>
     </div>
-
     <main>
         <div class="slider">
-
             <div class="slides">
                 <input type="radio" name="radio-btn" id="radio1">
                 <input type="radio" name="radio-btn" id="radio2">
                 <input type="radio" name="radio-btn" id="radio3">
-
                 <div class="slide prime">
                     <img src="img/banner.png" alt="entregas">
-
                 </div>
                 <div class="slide">
                     <img src="img/banner2.png" alt="artesanato">
-
                 </div>
                 <div class="slide">
                     <img src="img/banner3.png" alt="artesanato">
-
                 </div>
                 <div class="nav-auto">
                     <div class="auto-btn1"></div>
                     <div class="auto-btn2"></div>
                     <div class="auto-btn3"></div>
                 </div>
-
             </div>
             <div class="manual-nav">
                 <label for="radio1" class="manual-btn"></label>
                 <label for="radio2" class="manual-btn"></label>
                 <label for="radio3" class="manual-btn"></label>
             </div>
-
         </div>
         <section id="hero">
             <h1>Bem vindo a lojinha mais mais nordestina do Brasil</h1>
@@ -137,9 +118,6 @@
         </section>
         <section id="produtos">
             <h1 class="centralizado">Catalogo</h1>
-
-
-
         </section>
         <section id="sobremim">
             <h1>Sobre mim</h1>
@@ -147,28 +125,27 @@
                 Olá, meu nome é Andrea, e sou uma professora de artes de Recife que encontrou no artesanato uma forma de
                 expressar minha paixão pela cultura nordestina. Esta loja é a concretização de um sonho, onde cada peça
                 é uma celebração da nossa identidade vibrante e colorida.
-
+            </p>
+            <p>
                 Desde a infância, fui fascinada pela energia e pela riqueza cultural do Nordeste. Essa admiração cresceu
                 comigo e se entrelaçou à minha arte. Aqui, você encontrará uma variedade de artesanatos, cada um
                 refletindo uma história única e a essência da alma nordestina.
-
-
             </p>
-            <img src="img/artista.jpg" alt="Foto da dona da loja" width="400px">
             <p>
                 Como professora, sempre busquei inspirar meus alunos a explorar e criar. Agora, trago essa mesma
                 inspiração para as minhas criações, utilizando uma diversidade de materiais e técnicas. Cada obra é
                 feita à mão, com amor e atenção aos detalhes, pronta para levar a alegria do Nordeste para o seu lar.
-
+            </p>
+            <p>
                 Seja bem-vindo à minha loja de artesanato. Aqui, cada peça não é apenas um objeto, mas um pedaço da
                 nossa tradição, feito especialmente para você.
             </p>
+            <img src="img/artista.jpg" alt="Foto da dona da loja" width="400px">
         </section>
     </main>
     <footer>
         <div class="texto">
             <p>© 2024 Lojinha da tia Andrea. Todos os direitos reservados.</p>
-        </div>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/translate-js@2.3.1/dist/translate.min.js"></script>
